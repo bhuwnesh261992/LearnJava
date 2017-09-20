@@ -23,9 +23,13 @@ public class HelloYourName2Ways {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+ string fname;  
+ string lname;  
+ public static void main(String[] args) {
         // TODO code application logic here
-
+ System.out.println("Enter ur first name :" +fname);
+  System.out.println("Enter ur last name :" +lname);
+  System.out.println("Hello " +fname +lname "!" "or should i say :" +lname +fname "!");
     }
     
 }
